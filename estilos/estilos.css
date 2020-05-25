@@ -374,7 +374,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 425px);
     gap: 20px;
-    padding: 10%;
+    justify-content: center;
 }
 
 .videojuegos-container .item{
@@ -593,12 +593,12 @@ body{
 }
 
 .first-waifu-post{
+    margin: 0 auto;
     background-color: white;
     width: 800px;
     display: grid;
     grid-template-columns: 300px 500px;
     overflow: hidden;
-    margin:  0 0 0 400px;
     height: 250px;
     border-radius: 100px;
     box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.75);
@@ -648,8 +648,8 @@ body{
     width: 800px;
     display: grid;
     grid-template-columns: 500px 300px;
+    margin: 0 auto;
     overflow: hidden;
-    margin:  0 0 0 800px;
     height: 250px;
     border-radius: 100px;
     box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.75);
