@@ -1,0 +1,759 @@
+/* ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.contenedor{ 
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+    /* ENCABEZADO */
+
+    .header .top-header{
+        padding: 6px 0;
+        font-size: 12px;
+        border-bottom: 1px solid #f0f0f0;
+        background: #fafafa;
+        overflow: hidden;
+    }
+
+    .header .top-header .contenedor .top-menu{
+        float: left;
+    }
+    .header .top-header .contenedor .top-menu ul{
+        list-style: none;
+
+    }
+
+    .header .top-header .contenedor .top-menu ul li{
+        float: left;
+    }
+
+    .header .top-header .contenedor .top-menu ul li a{
+        text-decoration: none;
+        color: #363940;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+    .header .top-header .contenedor .top-menu ul li a:hover{
+        color: #8b919c;
+    }
+
+    .header .top-header .contenedor .top-redes{
+        float: right;
+    }
+
+    .header .top-header .contenedor .top-redes ul{
+        list-style: none;
+    }
+
+    .header .top-header .contenedor .top-redes ul li{
+        float: right;
+    }
+
+    .header .top-header .contenedor .top-redes ul li a{
+        text-decoration: none;
+        color: #363940;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+    .header .top-header .contenedor .top-redes ul li a:hover{
+        color: #8b919c;
+    }
+
+    .titulo-blog{
+        margin: 35px 0;
+        text-align: center;
+    }
+
+    .titulo-blog .contenedor h1 a{
+        text-decoration: none;
+        color: #363940;
+        font-size: 60px;
+        display: inline-block;
+        padding: 30px 0;
+        font-weight: 300;
+    }
+
+    .titulo-blog .contenedor h1 a:hover{
+        color: #8b919c;
+    }
+       
+    .titulo-blog .contenedor.subtitulo{
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #c7c7c7;
+    }
+
+    .menu-principal{
+        margin-bottom: 40px;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 10px 0;
+        background: #fafafa;
+    }
+
+    .menu-principal .contenedor ul{
+        list-style: none;
+        display: inline-block;
+        margin: o auto;
+
+    }
+
+    .menu-principal .contenedor ul li{
+        display: inline-block;
+    }
+
+    .menu-principal .contenedor ul li a{
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #363940;
+    }
+
+    .menu-principal .contenedor ul li a:hover{
+        color: blue;
+    }
+
+    /*MAIN*/
+    /*BANNER*/
+
+    .main .banner{
+        padding-bottom: 20px;
+        border-bottom-width: 1px solid #f0f0f0;
+    }
+
+    .main .banner .contenedor .banner-principal{
+        width: 100%;
+    }
+
+    .main .banner .contenedor .banner-principal img{
+        width: 100%;
+    }
+
+    /*blog*/
+    .blog{
+        background: #f0f0f0;
+        padding:  40px 0;
+    }
+
+    .blog .contenedor{
+        overflow: hidden;
+    }
+
+    /*articulos*/
+
+    .blog .contenedor .articulo-blog{
+        float: left;
+        width: 68%;
+    }
+
+    .blog .contenedor .articulos-blog .articulo{
+        background: #ffff;
+        padding: 60px 0;
+        border: 1px solid #f0f0f0;
+        margin-bottom: 20px;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .fecha-articulo{
+        color: #c7c7c7;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .titulo-articulo{
+        color: #363940;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .categoria-articulo{
+        color: #9c9c9c;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .blog .contenedor .articulos-blog .articulo img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog .contenedor .articulos-blog .articulo .texto-articulo{
+        padding: 0 20px;
+        text-align: justify;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .fecha-articulo p{
+        margin-bottom: 20px;
+        color: #363940;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .boton-articulo{
+        text-align: center;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .boton-articulo a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 20px;
+        background: none;
+        border: 1px solid #bababa;
+        font-size: 14px;
+        color: #7d7d7d;
+    }
+
+    .blog .contenedor .articulos-blog .articulo .boton-articulo a:hover{
+        background: #7d7d7d;
+        color: #fff;
+    }
+
+    /*ASIDE*/
+
+    .aside{
+        float: right;
+        width: 28%;
+    }
+
+    .aside .widget{
+        background: #ffff;
+        padding: 40px;
+        margin-bottom: 20px;
+        border: 1px solid #f0f0f0;
+        margin: 40px 0 0;
+    }
+
+    .aside .widget .widget-foto .foto-autor{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .aside .widget .widget-foto .foto-autor img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+    }
+    .aside .widget .widget-foto .datos-autor{
+        text-align: center;
+    }
+    .aside .widget .widget-foto .datos-autor .nombre{
+        color: #363940;
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .aside .widget .widget-foto .datos-autor .profesion{
+        color: #9c9c9c;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .aside .widget .widget-foto .datos-autor .info{
+        color: #363940;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .aside .widget .destacados-widget{
+        text-align: center;
+    }
+
+    .aside .widget .destacados-widget .titulo-destacados{
+        color: #363940;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .aside .widget .destacados-widget ul{
+        list-style: none;
+        text-align: left;
+        border-top: 1px solid #f0f0f0;
+    }
+    
+    .aside .widget .destacados-widget ul li a{
+     color: #363940;
+     font-size: 16px;
+     display: block;
+     padding: 20px 0;
+     border-bottom: 1px  solid #f0f0f0;
+     text-decoration: none;
+
+    }
+
+    .aside .widget .destacados-widget ul li a:hover{
+        text-decoration: underline;
+        color: #8b919c;
+
+    }
+
+    /*FOOTER*/
+
+    .footer{
+        background: #ffff;
+        padding:40px;
+        border: 1px solid #f0f0f0;
+        text-align: center;
+        color: #9c9c9c;
+
+    }
+
+
+/*---------------------------------------------------DESTACADOS.HTML*/
+
+.destacados-container{
+    background-image: url('/ImagenesTarea/98-988613_wallpapers-hd-para-pc-awesome-face-background.jpg');
+}
+
+.destacados-title-container{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.destacados-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 20%;
+}
+
+.destacados-container .item{
+    width: 100%;
+    height: 425px;
+    background-color: #E6E6E6;
+    border-radius: 20px;
+}
+
+.destacados-container .item img{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+}
+
+.destacados-container .item .destacados-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.destacados-container .item p{
+    text-align: center;
+}
+
+/*..............................................................VIDEOJUEGOS HTML*/
+
+.videojuegos-container{
+    background-image: url('/ImagenesTarea/backgroundVideojuegos1.jpg');
+    color: pink;
+}
+
+.videojuegos-title-container{
+    margin: 100px 0 50px;
+    font-size: 55px;
+    text-align: center;
+    color: #363940;
+    font-weight: bold;
+}
+
+.videojuegos-container{
+    display: grid;
+    grid-template-columns: repeat(4, 425px);
+    gap: 20px;
+    padding: 10%;
+}
+
+.videojuegos-container .item{
+    width: 100%;
+    height: 450px;
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.videojuegos-container .item img{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.videojuegos-container .item .videojuegos-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.videojuegos-details{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.videojuegos-container .item p{
+    text-align: center;
+    color: #363940;
+}
+
+/*............................................................Animes-*/
+
+.public-anime-container{
+    background-color: #f2f2f2;
+}
+
+.animesFavoritos-title-container{
+    margin: 100px 0 50px;
+    font-size: 55px;
+    text-align: center;
+    color: #363940;
+    font-weight: bold;
+}
+
+
+.posts-anime-list{
+    padding: 15px 10%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post-anime{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container-anime{
+    width: 100%;
+}
+
+.image-container-anime img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-overlay-anime{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.post-anime:hover .post-overlay-anime{
+    display: inline-block;
+}
+
+.post-overlay-anime .post-title-anime{
+    font-size: 50px;
+}
+
+.post-year-anime{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.post-description-anime{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.post-likes-anime{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.post-likes-anime strong{
+    color: #c20f3c;
+    font-size: 80px;
+}
+
+.post-label-list-anime{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*.....................................................................QUIEN SOY*/
+
+.quienSoy-general-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #363940;
+}
+
+.quienSoy-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 600px;
+    background-image: url('https://i.imgur.com/opJJNJp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 4px 33px 2px rgba(0,0,0,0.75);
+}
+
+.quienSoy-description{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5% ;
+    color: white;
+}
+
+.quienSoy-description p{
+    margin-bottom: 15px;
+}
+.quienSoy-description .quienSoy-title{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.quienSoy-description .quienSoy-text{
+    font-size: 18px;
+}
+
+.quienSoy-description .quienSoy-subtitle{
+    font-size: 25px;
+}
+
+
+/*.....................................................................viajes*/
+.viajes-title-container{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #363940;
+    margin-bottom: 25px;
+}
+
+.main-viajes-container{
+    padding:  15px 15%;
+}
+
+
+.viajes-post{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 400px;
+    border-radius: 22px;
+    overflow: hidden;
+    margin: 50px 0;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.75);
+}
+
+
+.image-viaje-container img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.details-viaje{
+    padding: 15px;
+}
+
+.details-viaje p{
+    margin-bottom: 15px;
+}
+
+.details-viaje-title{
+    font-size: 22px;
+}
+
+/*..........................................................waifus*/
+
+.waifus-title-container{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #363940;
+    margin-bottom: 25px;
+}
+
+.first-waifu-post{
+    background-color: white;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 300px 500px;
+    overflow: hidden;
+    margin:  0 0 0 400px;
+    height: 250px;
+    border-radius: 100px;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    
+}
+.first-waifu-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.first-waifu-description{
+    padding: 5%;
+    height: 100%;
+}
+.first-waifu-description p{
+    margin-bottom: 10px;
+}
+.waifu-title, .waifu-anime{
+    font-size: 22px;
+}
+.waifus-title-container{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #363940;
+    margin-bottom: 25px;
+}
+.waifu-details{
+    text-align: justify;
+}
+.first-waifu-button{
+    background-color: #92CA3D;
+    padding: 2%;
+    border-radius: 25px;
+    width: 90px;
+    height: 40px;
+}
+.first-waifu-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-waifu-post{
+    background-color: white;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 500px 300px;
+    overflow: hidden;
+    margin:  0 0 0 800px;
+    height: 250px;
+    border-radius: 100px;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    
+}
+.second-waifu-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-waifu-description{
+    text-align: end;
+    padding: 5%;
+    height: 100%;
+}
+.second-waifu-description p{
+    margin-bottom: 10px;
+}
+
+.second-waifu-button{
+    margin-left: 360px;
+    background-color: #92CA3D;
+    padding: 2%;
+    border-radius: 25px;
+    width: 90px;
+    height: 40px;
+}
+.second-waifu-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-waifu-post .last-waifu{
+    height: 500px important!;
+}
+
+/*---------------------------------------Hola soy un footer cualquiera*/
+
+.footer-personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 10px solid cornsilk;
+    background-color: #363940;
+    height: 100px;
+}
+
+.footer-personal-info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-personal-info{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-personal-info a{
+    color: white;
+    
+}
+
+
+
+
+
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
